@@ -16,11 +16,9 @@ ul {
 li {
   font-size: 18px;
   padding: 18px 27px;
+  margin: 0;
   border-right: 2px solid white;
-}
-
-.right li:first-child {
-  border-left: 2px solid white;
+  cursor: pointer;
 }
 
 .left li:last-child {
@@ -33,5 +31,4 @@ li {
 
 li:hover {
   background-color: #b90e4d;
-  cursor: auto;
 }
